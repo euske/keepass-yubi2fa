@@ -5,7 +5,7 @@ COPY=copy /y
 CSC=csc /nologo
 RC=rc /nologo
 
-KEEPASS_DIR=".\tmp\kp2"
+KEEPASS_DIR="%ProgramFiles(x86)%\KeePass Password Safe 2"
 KEEPASS_APP=$(KEEPASS_DIR)\KeePass.exe
 KEEPASS_PLUGINS=$(KEEPASS_DIR)\Plugins
 KEEPASS_TESTDB=.\tmp\TestDatabase.kdbx
